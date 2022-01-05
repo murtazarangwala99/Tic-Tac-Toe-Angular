@@ -74,14 +74,14 @@ export class AppComponent {
       this.itemArray[2] === this.itemArray[8] &&
       this.itemArray[2] !== 'empty'
     ){
-      this.winMessage = `${this.winMessage[2]} won`
+      this.winMessage = `${this.itemArray[2]} won`
     }
     else if(
       this.itemArray[0] === this.itemArray[4] && 
       this.itemArray[0] === this.itemArray[8] &&
       this.itemArray[0] !== 'empty'
     ){
-      this.winMessage = `${this.winMessage[0]} won`
+      this.winMessage = `${this.itemArray[0]} won`
     }
     else if(
       this.itemArray[2] === this.itemArray[4] &&
